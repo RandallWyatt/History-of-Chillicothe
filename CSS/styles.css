@@ -1,0 +1,188 @@
+body{
+    background-color: #616161;
+}
+@media screen and(min-width: 768px) and (max-width: 950px) {
+    #wrapper{
+        background-color: #ff0000;
+    }
+    #firstVid{
+        width:50%;
+    }
+    #secondVid{
+        width: 50%;
+    }
+    #thirdVid{
+        width: 50%;
+    }
+    section, aside{float: none}
+
+}
+@media screen and(min-width: 480px) and (max-width: 767px) {
+    #wrapper{
+        background-color: #0ec30b;
+    }
+    #firstVid{
+        width:50%;
+    }
+    #secondVid{
+        width: 50%;
+    }
+    #thirdVid{
+        width: 50%;
+    }
+    section, aside{float: none}
+}
+@media screen and (max-width: 479px) {
+    #wrapper{
+        background-color: #0000ff;
+    }
+    #firstVid{
+        width:50%;
+    }
+    #secondVid{
+        width: 50%;
+    }
+    #thirdVid{
+        width: 50%;
+    }
+    section, aside{float: none}
+}
+header{
+    width: 78.3%;
+    height: 5%;
+    background: #8e8e8e;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color:#FFF;
+    margin:  0 auto;
+    padding: 1% 5% 1% 5%;
+    border: solid #000;
+}
+#PtoCurrent{
+    width: 40%;
+    float: right;
+    clear: left;
+    overflow: hidden;
+}
+#firstVid{
+    width: 50%;
+}
+#secondVid{
+    width: 40%;
+    float: left;
+    clear: right;
+    overflow: hidden;
+    padding-bottom: 1%;
+}
+#history{
+    width: 40%;
+    float: right;
+    clear: left;
+    overflow: hidden;
+    padding-bottom: 1%;
+}
+#feast{
+     float: left;
+     clear: right;
+     overflow: hidden;
+     padding-right: 0;
+     width: 50%;
+}
+#thirdVid{
+    float: right;
+    clear: left;
+    overflow: hidden;
+    padding-left: 0;
+    width: 50%;
+}
+article{
+    width: 84.3%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFF;
+    text-align: justify;
+    padding: .5% 1% .5% 1%;
+    border: solid #000;
+    overflow: hidden;
+}
+p+h2{
+    text-align: center;
+}
+p{
+    font-family: Arial, sans-serif;
+}
+#Name{
+    width: 99%;
+    border-bottom: solid #000;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+#PreHundred{
+    width: 99%;
+    border-bottom: solid #000;
+    font-family: Roboto, sans-serif;
+    clear: both;
+}
+#Pre-Hundred{
+    width: 22%;
+    clear: both;
+    overflow: hidden;
+}
+.Other {
+    text-align: center;
+    clear: both;
+}
+#eighteen{
+    clear: both;
+    overflow: hidden;
+}
+h2{
+    border-bottom: solid #000;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+#postWorld{
+    width: 99%;
+    border-bottom: solid #000;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+#Industry{
+    width: 99%;
+    border-bottom: solid #000;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    clear: both;
+}
+#festivals{
+    width: 99%;
+    border-bottom: solid #000;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+#Gallery{
+    width: 99%;
+    border-bottom: solid #000;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    clear: both;
+    overflow: hidden;
+}
+figcaption{
+    font-family: Arial, sans-serif;
+}
+#Ross{
+     float: right;
+     clear: left;
+     overflow: hidden;
+ }
+#before{
+    float:left;
+    clear: right;
+    overflow: hidden;
+}
+#today{
+    float: right;
+    clear:both;
+    overflow: hidden;
+}
