@@ -176,11 +176,6 @@ figcaption{
      clear: left;
      overflow: hidden;
  }
-#before{
-    float:left;
-    clear: right;
-    overflow: hidden;
-}
 #today{
     float: right;
     clear:both;
